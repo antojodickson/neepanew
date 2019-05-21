@@ -13,9 +13,9 @@
         width: 100%;
         .map {
             overflow: hidden;
-            // img {
-            //     filter: grayscale(100%);
-            // }
+            img {
+                opacity: 0.2;
+            }
         }
         .details {
             position: relative;
@@ -55,10 +55,7 @@
         }
     }
 }
-.title {
-    font-weight: 500;
-    font-size: 16px;
-}
+
 .fixed-button {
     position: fixed;
     bottom: 10%;

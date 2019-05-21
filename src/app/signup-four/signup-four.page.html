@@ -15,8 +15,26 @@
   </div>
 </ion-header>
 <ion-content>
-  <div>
-    <h2 text-center no-margin no-padding padding-top class="title">Are you a U.S Military Veteran?</h2>
+    <ion-list  lines="none" no-margin no-padding class="custom-input-item">
+        <ion-radio-group class="radio-group-items">
+          <h2 class="title">
+            Are you a U.S Military Veteran ?
+          </h2>
+      
+          <ion-item>
+            <ion-radio value="yes"></ion-radio>
+            <ion-label>Yes</ion-label>
+          </ion-item>
+      
+          <ion-item>
+              <ion-radio value="no" checked></ion-radio>
+              <ion-label>No</ion-label>
+          </ion-item>
+
+        </ion-radio-group>
+      </ion-list>
+  <!-- <div class="custom-input-item">
+    <h2 no-margin no-padding padding-top class="title">Are you a U.S Military Veteran?</h2>
     <ion-list lines="none" no-margin no-padding>
       <ion-row class="checkbox">
         <ion-col size="4">
@@ -31,14 +49,14 @@
             <ion-radio-group>
               <ion-item>
                 <ion-label>No</ion-label>
-                <ion-radio slot="start" value="no"></ion-radio>
+                <ion-radio slot="start" value="no" checked></ion-radio>
               </ion-item>
             </ion-radio-group>
           </ion-col>
       </ion-row>
 
     </ion-list>
-  </div>
+  </div> -->
   <div class="fixed-button">
     <ion-button button-clear expand="block" class="gradient-button"><span class="ion-text-capitalize">Continue</span></ion-button>
   </div>

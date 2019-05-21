@@ -1,91 +1,87 @@
 .header {
-    min-height: 180px;
-    ion-toolbar {
-        position: relative;
-        z-index: 1;
-        --background: transparent !important;
-    }
-    .banner {
-        background: var(--ion-color-light);
-        position: absolute;
-        top: -44px;
-        left: 0;
-        width: 100%;
-        .map {
-            overflow: hidden;
-            // img {
-            //     filter: grayscale(100%);
-            // }
-        }
-        .details {
-            position: relative;
-            .img-box {
-                position: absolute;
-                top: -120px;
-                left: 0px;
-                right: 0;
-                margin: 0 auto;
-                width: 85px;
-                height: 85px;
-                overflow: hidden;
-                border-radius: 10px;
-                // background: var(--ion-color-dark);
-                img {
-                    width: 110%;
-                    height: 110%;
-                    position: absolute;
-                    left: -5px;
-                    right: -5px;
-                    top: -5px;
-                    bottom: -5px;
-                    max-width: unset;
-                }
-            }
-            h2 {
-                padding-top: 63px;
-                font-size: 1.97rem;
-                margin: 0;
-            }
-            p {
-                margin: 0;
-                font-size: 1.25rem;
-                color: var(--ion-color-medium);
-                padding-top: 6px;
-            }
-        }
-    }
-}
-.title {
-    font-weight: 500;
-    font-size: 16px;
-}
-.fixed-button {
-    position: fixed;
-    bottom: 10%;
+  min-height: 180px;
+  ion-toolbar {
+    position: relative;
+    z-index: 1;
+    --background: transparent !important;
+  }
+  .banner {
+    background: var(--ion-color-light);
+    position: absolute;
+    top: -44px;
     left: 0;
-    right: 0;
-    width: 75%;
-    margin: 0 auto;
-    text-align: center;
-    ion-button {
-        min-height: 3.5rem !important;
-       --border-radius: 10px !important;
+    width: 100%;
+    .map {
+      overflow: hidden;
+      img {
+        opacity: 0.2;
+      }
     }
-    }
-
-    .checkbox {
-        width: 86%;
+    .details {
+      position: relative;
+      .img-box {
+        position: absolute;
+        top: -120px;
+        left: 0px;
+        right: 0;
         margin: 0 auto;
-        ion-radio {
-            margin: 0px 5px;
+        width: 85px;
+        height: 85px;
+        overflow: hidden;
+        border-radius: 10px;
+        // background: var(--ion-color-dark);
+        img {
+          width: 110%;
+          height: 110%;
+          position: absolute;
+          left: -5px;
+          right: -5px;
+          top: -5px;
+          bottom: -5px;
+          max-width: unset;
         }
-        ion-item {
-            ion-label {
-                font-size: 16px;
-                font-weight: 300;
-                margin: 0px;
-            }
-            --min-height: 30px !important;
-        }
+      }
+      h2 {
+        padding-top: 63px;
+        font-size: 1.97rem;
+        margin: 0;
+      }
+      p {
+        margin: 0;
+        font-size: 1.25rem;
+        color: var(--ion-color-medium);
+        padding-top: 6px;
+      }
     }
-    
+  }
+}
+
+.fixed-button {
+  position: fixed;
+  bottom: 10%;
+  left: 0;
+  right: 0;
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+  ion-button {
+    min-height: 3.5rem !important;
+    --border-radius: 10px !important;
+  }
+}
+
+.checkbox {
+  width: 86%;
+  margin: 0 auto;
+  ion-radio {
+    margin: 0px 5px;
+  }
+  ion-item {
+    ion-label {
+      font-size: 16px;
+      font-weight: 300;
+      margin: 0px;
+    }
+    --min-height: 30px !important;
+  }
+}

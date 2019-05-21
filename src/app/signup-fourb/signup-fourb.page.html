@@ -1,57 +1,103 @@
 <ion-header class="header">
-    <ion-toolbar>
-      <ion-back-button></ion-back-button>
-      <ion-title>Login</ion-title>
-    </ion-toolbar>
-    <div class="banner">
-      <div class="map">
-        <img src="assets/imgs/flag.jpg">
-      </div>
-      <div class="details" text-center>
-        <div class="img-box">
-          <img src="assets/imgs/log-transparent.png">
-        </div>
+  <ion-toolbar>
+    <ion-back-button></ion-back-button>
+    <ion-title class="small-title">Login</ion-title>
+  </ion-toolbar>
+  <div class="banner">
+    <div class="map">
+      <img src="assets/imgs/flag.jpg" />
+    </div>
+    <div class="details" text-center>
+      <div class="img-box">
+        <img src="assets/imgs/log-transparent.png" />
       </div>
     </div>
-  </ion-header>
-  <ion-content>
-    <div>
-      <h2 text-center no-margin no-padding padding-top class="title">Are you a U.S Military Veteran?</h2>
-      <ion-list lines="none" no-margin no-padding>
-        <ion-row class="checkbox">
-          <ion-col size="4">
-            <ion-radio-group>
-              <ion-item>
-                <ion-label>Yes</ion-label>
-                <ion-radio slot="start" value="yes"></ion-radio>
-              </ion-item>
-            </ion-radio-group>
-          </ion-col>
-          <ion-col size="8" text-left>
-              <ion-radio-group>
-                <ion-item>
-                  <ion-label>No</ion-label>
-                  <ion-radio slot="start" value="no"></ion-radio>
-                </ion-item>
-              </ion-radio-group>
-            </ion-col>
-        </ion-row>
-      </ion-list>
-      <div class="form">
-        <ion-list lines="none">
+  </div>
+</ion-header>
+<ion-content>
+  <ion-list lines="none" no-margin no-padding class="custom-input-item">
+    <ion-radio-group class="radio-group-items">
+      <h2 class="title">
+        Are you a U.S Military Veteran ?
+      </h2>
+
+      <ion-item>
+        <ion-radio value="yes"></ion-radio>
+        <ion-label>Yes</ion-label>
+      </ion-item>
+
+      <ion-item>
+        <ion-radio value="no" checked></ion-radio>
+        <ion-label>No</ion-label>
+      </ion-item>
+    </ion-radio-group>
+  </ion-list>
+  <ion-list lines="none" no-margin no-padding>
+    <ion-item class="custom-input-item">
+      <ion-label position="stacked" class="input-title"
+        >Military Number</ion-label
+      >
+      <ion-input type="text" placeholder="Enter Military Number"></ion-input>
+    </ion-item>
+
+    <ion-item class="custom-input-item">
+      <ion-label position="stacked" class="input-title"
+        >Military Branch</ion-label
+      >
+      <ion-input type="text" placeholder="Enter Military Branch"></ion-input>
+    </ion-item>
+  </ion-list>
+  <div class="fixed-button">
+    <ion-button button-clear expand="block" class="gradient-button"
+      ><span class="ion-text-capitalize">Continue</span></ion-button
+    >
+  </div>
+</ion-content>
+<!-- <ion-header class="header">
+  <ion-toolbar>
+    <ion-back-button></ion-back-button>
+    <ion-title>Login</ion-title>
+  </ion-toolbar>
+  <div class="banner">
+    <div class="map">
+      <img src="assets/imgs/flag.jpg" />
+    </div>
+    <div class="details" text-center>
+      <div class="img-box">
+        <img src="assets/imgs/log-transparent.png" />
+      </div>
+    </div>
+  </div>
+</ion-header>
+<ion-content>
+  <div>
+    <h2 text-center no-margin no-padding padding-top class="title">
+      Are you a U.S Military Veteran?
+    </h2>
+    <ion-list lines="none" no-margin no-padding>
+      <ion-row class="checkbox">
+        <ion-col size="4">
+          <ion-radio-group>
             <ion-item>
-                <ion-label position="stacked">Miletary Number</ion-label>
-                <ion-input type="text" value="samsmith@mail.com"></ion-input>
+              <ion-label>Yes</ion-label>
+              <ion-radio slot="start" value="yes"></ion-radio>
             </ion-item>
+          </ion-radio-group>
+        </ion-col>
+        <ion-col size="8" text-left>
+          <ion-radio-group>
             <ion-item>
-                <ion-label position="stacked">Miletary Branch</ion-label>
-                <ion-input type="text" value="samsmith@mail.com"></ion-input>
+              <ion-label>No</ion-label>
+              <ion-radio slot="start" value="no"></ion-radio>
             </ion-item>
-        </ion-list>
-          
-      </div>
-    </div>
-    <div class="fixed-button">
-      <ion-button button-clear expand="block" class="gradient-button"><span class="ion-text-capitalize">Continue</span></ion-button>
-    </div>
-  </ion-content>
+          </ion-radio-group>
+        </ion-col>
+      </ion-row>
+    </ion-list>
+  </div>
+  <div class="fixed-button">
+    <ion-button button-clear expand="block" class="gradient-button"
+      ><span class="ion-text-capitalize">Continue</span></ion-button
+    >
+  </div>
+</ion-content> -->

@@ -1,42 +1,52 @@
-
-
 <ion-header>
-    <ion-toolbar color="light">
-      <ion-buttons slot="start">
-        <ion-back-button color="primary"></ion-back-button>
-      </ion-buttons>
-      <ion-title>Login</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-toolbar color="light">
+    <ion-buttons slot="start">
+      <ion-back-button color="primary"></ion-back-button>
+    </ion-buttons>
+    <ion-title class="small-title">Login</ion-title>
+  </ion-toolbar>
+</ion-header>
 
 <ion-content>
-    <div class="signuplogo-img" text-center>
-        <img src="assets/imgs/logo.png" alt="">
+  <div class="page-logo" text-center>
+    <img src="assets/imgs/logo.png" alt="" />
+  </div>
+  <div class="form" padding-horizontal>
+    <ion-list lines="none" no-margin no-padding>
+      <ion-item no-lines>
+        <ion-label position="stacked" class="input-title">E-mail</ion-label>
+        <ion-input type="text" placeholder="Enter Email"></ion-input>
+      </ion-item>
+      <ion-item no-lines>
+        <ion-label position="stacked" class="input-title">Password</ion-label>
+        <ion-input
+          class="password"
+          type="password"
+          placeholder="Enter Password"
+        ></ion-input>
+      </ion-item>
+      <ion-item no-lines>
+        <ion-label position="stacked" class="input-title"
+          >Confirm Password</ion-label
+        >
+        <ion-input
+          class="password"
+          type="password"
+          placeholder="Enter Confirm Password"
+        ></ion-input>
+      </ion-item>
+    </ion-list>
+    <div class="fixed-bottom spacing">
+        <br>
+      <p text-center>
+        By signing up you agree with the<span> Terms & Conditions</span> and
+        <span> Privacy Policy </span>
+      </p>
     </div>
-<div class="form">
-<ion-list lines="none" no-margin no-padding>
-    <ion-item>
-        <ion-label position="stacked">E-mail</ion-label>
-        <ion-input type="text" value="samsmith@mail.com"></ion-input>
-    </ion-item>
-    <ion-item>
-        <ion-label position="stacked">Password</ion-label>
-        <ion-input type="password" class="password" value="******"></ion-input>
-    </ion-item>
-    <ion-item>
-            <ion-label position="stacked">Confirm Password</ion-label>
-            <ion-input type="password" class="password" value="******"></ion-input>
-        </ion-item>
-</ion-list>
-<div class="fixed-bottom">
-        <p text-center>By signing up you agree with the<span> Terms & Conditions</span> and <span> Privacy Policy </span></p>
-    </div>
-<!-- <button ion-button block class="btn" (click)="signuptwo()">Continue</button> -->
-<!-- <div class="fixed-button">
-    <ion-button expand="block" color="primary" (click)="signuptwo()">Continue</ion-button>
-    </div> -->
     <div class="fixed-button">
-        <ion-button button-clear expand="block" class="gradient-button" (click)="signuptwo()"><span class="ion-text-capitalize">Continue</span></ion-button>
-      </div>
-</div>
+      <ion-button expand="block" class="gradient-button" (click)="signup()"
+        ><span class="ion-text-capitalize">Continue</span></ion-button
+      >
+    </div>
+  </div>
 </ion-content>
