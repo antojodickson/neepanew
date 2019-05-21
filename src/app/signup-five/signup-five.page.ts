@@ -14,7 +14,7 @@ export class SignupFivePage implements OnInit {
 
 
   signupfiveb() {
-    this.router.navigateByUrl('/signup-fiveb');
+    this.router.navigateByUrl('/signups-six');
   }
   ngOnInit() {
   }

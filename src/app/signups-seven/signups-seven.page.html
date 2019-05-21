@@ -1,27 +1,34 @@
 <ion-header>
-    <ion-toolbar color="light">
-      <ion-buttons slot="start">
-        <ion-back-button color="primary"></ion-back-button>
-      </ion-buttons>
-      <ion-title>Login</ion-title>
-    </ion-toolbar>
-  </ion-header>
-  
-  <ion-content>
-    <div class="signuplogo-img" text-center>
-        <img src="assets/imgs/logo.png" alt="">
-    </div>
-  <div>
-    <h2 text-center>Turn on Notifications</h2>
-    <div class="notifyicon" text-center>
-        <ion-icon name="notifications-outline"></ion-icon>
-    </div>
-    <p class="detail">Don't miss a thing! Enable push notifications to let us send you personal news and updates</p>
-    <div class="fixed-button">
-        <ion-button button-clear expand="block" class="gradient-button"><span class="ion-text-capitalize">Continue</span></ion-button>
-      </div>
-    <div class="skip">
-        <ion-button fill="clear" expand="block"><span class="ion-text-capitalize">Skip for Now</span></ion-button>
-      </div>
+  <ion-toolbar color="light">
+    <ion-buttons slot="start">
+      <ion-back-button color="primary"></ion-back-button>
+    </ion-buttons>
+    <ion-title class="small-title">Login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="signuplogo-img" text-center>
+    <img src="assets/imgs/logo.png" alt="" />
   </div>
-  </ion-content>
+  <div>
+    <h2 text-center class="custom-h2">Turn on Notifications</h2>
+    <div class="notifyicon" text-center>
+      <ion-icon name="notifications-outline"></ion-icon>
+    </div>
+    <p class="custom-text first">
+      Don't miss a thing! Enable push notifications to let us send you personal
+      news and updates
+    </p>
+    <div class="fixed-button">
+      <ion-button button-clear expand="block" class="gradient-button"
+        ><span class="ion-text-capitalize">Turn on Notifications</span></ion-button
+      >
+    </div>
+    <div class="skip">
+      <ion-button fill="clear" expand="block"
+        ><span class="ion-text-capitalize">Maybe Later</span></ion-button
+      >
+    </div>
+  </div>
+</ion-content>

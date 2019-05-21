@@ -99,7 +99,12 @@
       --padding-top: 20px;
       --padding-bottom: 20px;
       font-size: 12px;
+      &.email {
+        --padding-top: 15px;
+        --padding-bottom: 15px;
+      }
     }
+    
   }
 
   h2 {
