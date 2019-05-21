@@ -24,10 +24,10 @@ const routes: Routes = [
       //   path: 'inbox',
       //   loadChildren: './inbox/inbox.module#InboxPageModule'
       // },
-      {
-        path: 'me',
-        loadChildren: './me/me.module#MePageModule'
-      },
+      // {
+      //   path: 'me',
+      //   loadChildren: './me/me.module#MePageModule'
+      // },
       {
         path: 'tab2',
         children: [
