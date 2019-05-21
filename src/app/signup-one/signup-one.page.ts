@@ -12,7 +12,7 @@ export class SignupOnePage implements OnInit {
     public router: Router
   ) { }
 
-  signuptwo() {
+  signup() {
     this.router.navigateByUrl('/signup-two');
   }
   ngOnInit() {
