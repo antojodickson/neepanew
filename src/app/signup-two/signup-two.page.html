@@ -1,35 +1,35 @@
 <ion-header>
-    <ion-toolbar color="light">
-      <ion-buttons slot="start">
-        <ion-back-button color="primary"></ion-back-button>
-      </ion-buttons>
-      <ion-title>Login</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-toolbar color="light">
+    <ion-buttons slot="start">
+      <ion-back-button color="primary"></ion-back-button>
+    </ion-buttons>
+    <ion-title class="small-title">Login</ion-title>
+  </ion-toolbar>
+</ion-header>
 
 <ion-content>
-    <div class="signuplogo-img" text-center>
-        <img src="assets/imgs/logo.png" alt="">
-    </div>
-    <div class="user-img" text-center>
-        <img src="assets/imgs/user.png" alt="">
-        <p class="username">Upload Your Photo</p>
-    </div>
-<div class="form">
-<ion-list lines="none" no-margin no-padding>
-    <ion-item class="custom-input-item">
-        <ion-label position="stacked" class="input-title">Full Name</ion-label>
-        <ion-input type="text" placeholder="Benny Williamson"></ion-input>
+  <div class="page-logo" text-center>
+    <img src="assets/imgs/logo.png" alt="" />
+  </div>
+  <div class="user-img" text-center>
+    <img src="assets/imgs/user.png" alt="" />
+    <p class="username">Upload Your Photo</p>
+  </div>
+  <div class="form">
+    <ion-list lines="none" no-margin no-padding>
+      <ion-item>
+        <ion-label position="stacked">Full Name</ion-label>
+        <ion-input type="text" placeholder="Enter Full Name"></ion-input>
       </ion-item>
-</ion-list>
-<!-- <div class="fixed-button">
-    <ion-button expand="block" color="primary"><span class="ion-text-capitalize">Continue</span></ion-button>
-    </div> -->
-    <!-- <div class="fixed-button">
-            <ion-button button-clear expand="block" class="gradient-button">Log in</ion-button>
-          </div> -->
-          <div class="fixed-button">
-            <ion-button button-clear expand="block" class="gradient-button" (click)="signupthree()"><span class="ion-text-capitalize">Continue</span></ion-button>
-          </div>
-</div>
+    </ion-list>
+    <div class="fixed-button">
+      <ion-button
+        button-clear
+        expand="block"
+        class="gradient-button"
+        (click)="signupthree()"
+        ><span class="ion-text-capitalize">Continue</span></ion-button
+      >
+    </div>
+  </div>
 </ion-content>

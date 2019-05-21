@@ -1,32 +1,39 @@
 <ion-header>
-    <ion-toolbar color="light">
-      <ion-buttons slot="start">
-        <ion-back-button color="primary"></ion-back-button>
-      </ion-buttons>
-      <ion-title>Login</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-toolbar color="light">
+    <ion-buttons slot="start">
+      <ion-back-button color="primary"></ion-back-button>
+    </ion-buttons>
+    <ion-title class="small-title">Login</ion-title>
+  </ion-toolbar>
+</ion-header>
 
 <ion-content>
-    <div class="signuplogo-img" text-center>
-        <img src="assets/imgs/logo.png" alt="">
-    </div>
-<div class="form">
-<ion-list lines="none" no-margin no-padding>
-    <ion-item>
-        <ion-label position="stacked">Full Adress</ion-label>
-        <ion-input type="text" value="123 Mahem Drive,Anaheim CA,..."></ion-input>
-    </ion-item>
-    <ion-item>
-        <ion-label position="stacked">Phone Number</ion-label>
-        <ion-input type="text" value="123 Mahem Drive,Anaheim CA,..."></ion-input>
-    </ion-item>
-</ion-list>
-<!-- <div class="fixed-button">
-    <ion-button expand="block" color="primary" (click)="signupfour()"><span class="ion-text-capitalize">Continue</span></ion-button>
-    </div> -->
+  <div class="page-logo" text-center>
+    <img src="assets/imgs/logo.png" alt="" />
+  </div>
+  <div class="form">
+    <ion-list lines="none" no-margin no-padding>
+      <ion-item class="custom-input-item">
+        <ion-label position="stacked" class="input-title"
+          >Full Address</ion-label
+        >
+        <ion-input type="text" placeholder="Enter Full Address"></ion-input>
+      </ion-item>
+      <ion-item class="custom-input-item">
+        <ion-label position="stacked" class="input-title"
+          >Phone Number</ion-label
+        >
+        <ion-input type="text" placeholder="Enter Phone Number"></ion-input>
+      </ion-item>
+    </ion-list>
     <div class="fixed-button">
-        <ion-button button-clear expand="block" class="gradient-button" (click)="signupfour()"><span class="ion-text-capitalize">Continue</span></ion-button>
-      </div>
-</div>
+      <ion-button
+        button-clear
+        expand="block"
+        class="gradient-button"
+        (click)="signupfour()"
+        ><span class="ion-text-capitalize">Continue</span></ion-button
+      >
+    </div>
+  </div>
 </ion-content>

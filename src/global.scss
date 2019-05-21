@@ -153,6 +153,26 @@ li {
     }
     
 }
+.password {
+    // color: var(--ion-color-primary) !important;
+    // font-weight: 500;
+    // font-size: 20px !important;
+    // letter-spacing: 5px;
+    --padding-bottom: 15px !important;
+    --padding-top: 15px !important;
+  }
+.radio-group-items {
+    .title {
+        font-size: 12px;
+        margin: 10px 0 0 16px;
+    }
+    ion-item {
+        display: table-cell;
+        ion-label {
+            padding: 0 0px 0 10px;
+        }
+    }
+}
 .custom-input-item {
     border-bottom: none !important;
      width: 80%;
@@ -160,6 +180,7 @@ li {
      right: 0;
      margin: 0 auto;
      margin-top: 0px;
+     padding: 0 0 10px 0;
      box-shadow: none !important;
      --highlight-color-focused: none;
      ion-input {
@@ -190,11 +211,12 @@ li {
 }
 
 .fixed-bottom {
-    position: inherit;
+    position: fixed;
     bottom: 0;
     left: 0;
     width: 80%;
     margin: 0 auto;
+    right: 0;
     p {
         font-size: 12px;
         margin: 10px;
