@@ -13,7 +13,7 @@ export class SignupOnePage implements OnInit {
   ) { }
 
   signuptwo() {
-    this.router.navigateByUrl('/signup-three');
+    this.router.navigateByUrl('/signup-two');
   }
   ngOnInit() {
   }
