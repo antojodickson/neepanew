@@ -12,4 +12,7 @@ export class SignupFivePage implements OnInit {
   ngOnInit() {
   }
 
+  signup() {
+
+  }
 }

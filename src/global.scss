@@ -128,9 +128,23 @@ li {
     background: var(--ion-color-light);
 }
 
+.gradient-button { 
+    --background: none !important;
+    background: -webkit-gradient(left top, #0cc6f4, #2083da);
+    background: -o-linear-gradient(bottom right, #0cc6f4, #2083da);
+    background: -moz-linear-gradient(bottom right, #0cc6f4, #2083da);
+    background: linear-gradient(to bottom right, #0cc6f4, #2083da);
+    border-radius: 10px;
+}
+.small-title {
+    font-size: 12px;
+    color: var(--ion-color-medium);
+}
+
 .header {
     &::after {
         display: none;
+        background-image: none;
     }
     .toolbar {
         .title {

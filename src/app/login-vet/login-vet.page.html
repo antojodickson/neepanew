@@ -1,41 +1,45 @@
-<!-- <ion-header>
-  <ion-toolbar>
-    <ion-title>loginVet</ion-title>
-  </ion-toolbar>
-</ion-header> -->
-
 <ion-content>
-  <div>
-    <img src="assets/imgs/background.jpg" alt="" style="height: 250px;">
-</div>
-<div>
-    <div class="logo-img">
-        <img src="assets/imgs/logo.png" alt="">
+  <div class="banner">
+    <div class="map">
+      <img src="assets/imgs/login-bg.jpeg">
+    </div>
+    <div class="details" text-center>
+      <div class="img-box">
+        <img src="assets/imgs/logo.png">
       </div>
-  <ion-card padding-horizontal>
-     
+    </div>
+  </div>
+  <!-- <div>
+    <img src="assets/imgs/login-bg.jpeg" alt="" style="height: 250px;">
+  </div> -->
+  <div>
+    <!-- <div class="logo-img">
+      <img src="assets/imgs/logo.png" alt="">
+    </div> -->
+    <ion-card padding-horizontal>
+
       <div class="form" padding>
-              
-          <ion-list lines="none" no-margin>
-              <ion-item no-lines>
-                  <ion-input type="email" value="Luiswiliams@mail.com"></ion-input>
-              </ion-item>
-              <br>
-              <h3 text-right (click)="password()" no-margin>Forgot Password?</h3>
-              <br>
-              <ion-item no-lines>
-                  <ion-input class="password" type="password" class="password" value="******"></ion-input>
-              </ion-item>
-          </ion-list>  
+
+        <ion-list lines="none" no-margin>
+          <ion-item no-lines>
+            <ion-input type="email" value="Luiswiliams@mail.com"></ion-input>
+          </ion-item>
+          <br>
+          <h3 text-right (click)="password()" no-margin>Forgot Password?</h3>
+          <br>
+          <ion-item no-lines>
+            <ion-input class="password" type="password" class="password" value="******"></ion-input>
+          </ion-item>
+        </ion-list>
       </div>
     </ion-card>
     <div class="fixed-button">
-    <ion-button expand="block" color="primary">Log in</ion-button>
+      <ion-button button-clear expand="block" class="gradient-button">Log in</ion-button>
     </div>
-          
+
     <div class="fixed-bottom" (click)="signupone()">
-        <p text-center>Don't have an account?<span> Sign up!</span></p>
+      <p text-center>Don't have an account?<span> Sign up!</span></p>
     </div>
-</div>
+  </div>
 
 </ion-content>

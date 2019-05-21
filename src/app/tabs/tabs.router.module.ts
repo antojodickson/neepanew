@@ -20,10 +20,10 @@ const routes: Routes = [
       //   path: 'notifications',
       //   loadChildren: './notifications/notifications.module#NotificationsPageModule'
       // },
-      {
-        path: 'inbox',
-        loadChildren: './inbox/inbox.module#InboxPageModule'
-      },
+      // {
+      //   path: 'inbox',
+      //   loadChildren: './inbox/inbox.module#InboxPageModule'
+      // },
       {
         path: 'me',
         loadChildren: './me/me.module#MePageModule'

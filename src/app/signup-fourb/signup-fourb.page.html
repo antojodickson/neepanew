@@ -1,9 +1,57 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>signupFourb</ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content>
-
-</ion-content>
+<ion-header class="header">
+    <ion-toolbar>
+      <ion-back-button></ion-back-button>
+      <ion-title>Login</ion-title>
+    </ion-toolbar>
+    <div class="banner">
+      <div class="map">
+        <img src="assets/imgs/flag.jpg">
+      </div>
+      <div class="details" text-center>
+        <div class="img-box">
+          <img src="assets/imgs/log-transparent.png">
+        </div>
+      </div>
+    </div>
+  </ion-header>
+  <ion-content>
+    <div>
+      <h2 text-center no-margin no-padding padding-top class="title">Are you a U.S Military Veteran?</h2>
+      <ion-list lines="none" no-margin no-padding>
+        <ion-row class="checkbox">
+          <ion-col size="4">
+            <ion-radio-group>
+              <ion-item>
+                <ion-label>Yes</ion-label>
+                <ion-radio slot="start" value="yes"></ion-radio>
+              </ion-item>
+            </ion-radio-group>
+          </ion-col>
+          <ion-col size="8" text-left>
+              <ion-radio-group>
+                <ion-item>
+                  <ion-label>No</ion-label>
+                  <ion-radio slot="start" value="no"></ion-radio>
+                </ion-item>
+              </ion-radio-group>
+            </ion-col>
+        </ion-row>
+      </ion-list>
+      <div class="form">
+        <ion-list lines="none">
+            <ion-item>
+                <ion-label position="stacked">Miletary Number</ion-label>
+                <ion-input type="text" value="samsmith@mail.com"></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label position="stacked">Miletary Branch</ion-label>
+                <ion-input type="text" value="samsmith@mail.com"></ion-input>
+            </ion-item>
+        </ion-list>
+          
+      </div>
+    </div>
+    <div class="fixed-button">
+      <ion-button button-clear expand="block" class="gradient-button"><span class="ion-text-capitalize">Continue</span></ion-button>
+    </div>
+  </ion-content>

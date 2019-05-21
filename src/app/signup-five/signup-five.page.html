@@ -1,9 +1,29 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>signupFive</ion-title>
-  </ion-toolbar>
-</ion-header>
+    <ion-toolbar color="light">
+      <ion-buttons slot="start">
+        <ion-back-button color="primary"></ion-back-button>
+      </ion-buttons>
+      <ion-title class="small-title">Login</ion-title>
+    </ion-toolbar>
+  </ion-header>
 
 <ion-content>
-
+    <div class="signuplogo-img" text-center>
+        <img src="assets/imgs/logo.png" alt="">
+    </div>
+<div class="form">
+<ion-list lines="none" no-margin no-padding>
+    <ion-item>
+        <ion-label position="stacked">What is your current occupation ?</ion-label>
+        <ion-input type="text" placeholder="Bus Charter Driver"></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-label position="stacked">Tell us about yourself</ion-label>
+        <ion-textarea rows="6" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"></ion-textarea>
+    </ion-item>
+</ion-list>
+<div class="fixed-button">
+    <ion-button expand="block" color="primary" (click)="signup()"><span class="ion-text-capitalize">Continue</span></ion-button>
+    </div>
+</div>
 </ion-content>
