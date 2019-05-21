@@ -1,0 +1,29 @@
+<ion-header>
+    <ion-toolbar color="light">
+      <ion-buttons slot="start">
+        <ion-back-button color="primary"></ion-back-button>
+      </ion-buttons>
+      <ion-title>Login</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+<ion-content>
+    <div class="signuplogo-img" text-center>
+        <img src="assets/imgs/logo.png" alt="">
+    </div>
+<div class="form">
+<ion-list lines="none" no-margin no-padding>
+    <ion-item>
+        <ion-label position="stacked">Full Adress</ion-label>
+        <ion-input type="text" value="123 Mahem Drive,Anaheim CA,..."></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-label position="stacked">Phone Number</ion-label>
+        <ion-input type="text" value="123 Mahem Drive,Anaheim CA,..."></ion-input>
+    </ion-item>
+</ion-list>
+<div class="fixed-button">
+    <ion-button expand="block" color="primary" (click)="signupfour()"><span class="ion-text-capitalize">Continue</span></ion-button>
+    </div>
+</div>
+</ion-content>
