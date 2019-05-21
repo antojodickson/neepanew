@@ -1,9 +1,25 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>signupsSix</ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content>
-
-</ion-content>
+    <ion-toolbar color="light">
+      <ion-buttons slot="start">
+        <ion-back-button color="primary"></ion-back-button>
+      </ion-buttons>
+      <ion-title>Login</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content>
+    <div class="signuplogo-img" text-center>
+        <img src="assets/imgs/logo.png" alt="">
+    </div>
+  <div>
+    <h2 text-center>Uploaded Your Resume</h2>
+    <p class="detail">To Upload a new resume tab on the button below</p>
+    <div class="resumebutton">
+        <ion-button fill="outline" expand="block"><span class="ion-text-capitalize">Uploaded New Resume</span></ion-button>
+    </div>
+    <p class="detail">If you don't have a resume, you can create a resume by tapping on the "me" tab in the bottom menu and then "my resume"</p>
+    <div class="skip">
+        <ion-button fill="clear" expand="block"><span class="ion-text-capitalize" (click)="signupsixb()">Skip for Now</span></ion-button>
+      </div>
+  </div>
+  </ion-content>

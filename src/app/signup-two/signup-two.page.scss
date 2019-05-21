@@ -1,34 +1,4 @@
-.form {
-    .item {
-        ion-label{
-         margin: 13px 0px;
-         font-weight: 500;
-        }
-     border-bottom: none !important;
-     width: 80%;
-     left: 0;
-     right: 0;
-     margin: 0 auto;
-     margin-top: 0px;
-     box-shadow: none !important;
-     --highlight-color-focused: none;
-     ion-input {
-         // text-align: center;
-         --padding-top: 20px;
-         --padding-bottom: 20px;
-         font-size: 12px;
-         --background: #f0f3f7;
-        border-radius: 10px;
-        --padding-end: 20px;
-        --padding-start: 20px;
-     }
- }
- }
- .password {
-     color: var(--ion-color-primary) !important;
-     font-weight: 500;
- }
- 
+
  .signuplogo-img {
      img {
          height: 100px;
@@ -42,39 +12,7 @@
      }
  }
  
- .fixed-bottom {
-     position: inherit;
-     bottom: 0;
-     left: 0;
-     width: 80%;
-     margin: 0 auto;
-     p {
-         font-size: 12px;
-         margin: 10px;
-         color: var(--ion-color-tertiary);
-         span {
-             // color: $text-theme-color;
-             color: #46adcd;
-             font-weight: bold;
-             font-size: 12px !important;
-         }
-     }
- }
  
- .fixed-button {
-     position: fixed;
-     bottom: 10%;
-     left: 0;
-     right: 0;
-     width: 75%;
-     margin: 0 auto;
-     text-align: center;
-     ion-button {
-         min-height: 3.5rem !important;
-        --border-radius: 10px !important;
-     }
-     }
-
      .username {
         font-weight: 500;
         color: var(--ion-color-tertiary);
