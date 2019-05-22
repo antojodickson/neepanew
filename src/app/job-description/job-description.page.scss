@@ -1,0 +1,55 @@
+   
+
+   .job-des {
+    .more-icon {
+      margin-top: 10px;
+     }
+     .border {
+        border-bottom: 1px solid #E5F0FD;
+      .des-heading {
+        font-size: 16px;
+        font-weight: 500;
+       }
+       .des-sub-heading {
+        font-size: 14px;
+        color: var(--ion-color-tertiary);
+        margin: 5px 0px;
+       }
+     }
+     .content-title {
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--ion-color-tertiary);
+         } 
+        .content {
+        font-size: 11px;
+        font-weight: 400;
+        color: var(--ion-color-tertiary);
+        }
+
+        .skill-title {
+          font-size: 11px;
+          font-weight: 600;
+          color: var(--ion-color-primary);
+        }
+   }
+
+   .default-button {
+     background-color: #f3f3f5;
+  }
+  ion-button {
+    --border-radius: 20px;
+    border-radius: 20px;
+  }
+
+  .footer-icon {
+    margin-top: 10px;
+    ion-icon {
+      vertical-align: middle;
+      font-size: 20px;
+    }
+    .icon-textstyle {
+      font-size: 14px;
+      padding-left: 5px;
+    }
+  }

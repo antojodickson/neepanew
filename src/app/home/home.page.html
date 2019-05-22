@@ -1,6 +1,8 @@
 <ion-header>
-  <ion-toolbar color="primary">
-    <ion-searchbar></ion-searchbar>
+  <ion-toolbar class="gradient-color">
+    <div class="custom-searchbar">
+        <ion-searchbar></ion-searchbar>
+    </div>
   </ion-toolbar>
 </ion-header>
 
@@ -18,7 +20,7 @@
       </ion-tab-button>
     </ion-tab-bar>
   </ion-tabs>
-  <div class="custom-card">
+  <div class="jobscustom-card">
     <ion-card>
       <ion-item lines="none">
         <div class="border-style">
@@ -67,6 +69,65 @@
         <ion-col size="6" text-left>
             <div>
                 <ion-icon name="heart-empty"></ion-icon>
+                <span class="icon-textstyle save">Save to favorites</span> 
+            </div>
+        </ion-col>
+        <ion-col size="6" text-right (click)="companyprofile()">
+          <p class="view">View More <ion-icon name="arrow-forward"></ion-icon></p>
+          </ion-col>
+      </ion-row>
+      </ion-card-content>
+    </ion-card>
+  </div>
+  <div class="jobscustom-card">
+    <ion-card>
+      <ion-item lines="none">
+        <div class="border-style">
+          <ion-row margin-top class="border">
+            <ion-col size="2" no-padding>
+              <div>
+                <img src="assets/imgs/logo.png" alt="">
+              </div>
+            </ion-col>
+            <ion-col size="10">
+              <p no-margin class="heading">Driver Training and Safety Coordinators</p>
+              <p no-margin class="sub-heading">$18 - $20 hourly Full-Time</p>
+            </ion-col>
+          </ion-row>
+        </div>
+      </ion-item>
+      <ion-card-content>
+        <ion-row class="icon-text">
+          <ion-col no-padding text-left>
+            <div>
+                <ion-icon name="calculator"></ion-icon>
+                <span class="icon-textstyle">Gold Coast Tours</span> 
+            </div>
+          </ion-col>
+          <ion-col no-padding text-center>
+            <div>
+                <ion-icon name="navigate"></ion-icon>
+               <span class="icon-textstyle">Anaheim;CA</span> 
+            </div>
+          </ion-col>
+          <ion-col no-padding text-right>
+            <div>
+                <ion-icon name="calendar"></ion-icon>
+                <span class="icon-textstyle">March 21, 2019</span> 
+            </div>
+          </ion-col>
+        </ion-row>
+       <p margin-top padding-top padding-bottom class="border"> <span class="content">Coordinate Driver Training and performance.
+          Including maintenance of training files and proper training 
+          for SPAB and school bus triver in additions to company driver 
+          training program.
+          Contact driver evaluvations and maintain driver qualification and training records.
+          Effectively Communicate and implement... 
+    </span></p>
+      <ion-row>
+        <ion-col size="6" text-left>
+            <div>
+                <ion-icon name="heart" color="danger"></ion-icon>
                 <span class="icon-textstyle save">Save to favorites</span> 
             </div>
         </ion-col>

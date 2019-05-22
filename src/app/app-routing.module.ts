@@ -13,7 +13,9 @@ const routes: Routes = [
   { path: 'signup-fiveb', loadChildren: './signup-fiveb/signup-fiveb.module#SignupFivebPageModule' },
   { path: 'signups-six', loadChildren: './signups-six/signups-six.module#SignupsSixPageModule' },
   { path: 'signups-sixb', loadChildren: './signups-sixb/signups-sixb.module#SignupsSixbPageModule' },
-  { path: 'signups-seven', loadChildren: './signups-seven/signups-seven.module#SignupsSevenPageModule' }
+  { path: 'signups-seven', loadChildren: './signups-seven/signups-seven.module#SignupsSevenPageModule' },
+  { path: 'company-profile', loadChildren: './company-profile/company-profile.module#CompanyProfilePageModule' },
+  { path: 'job-description', loadChildren: './job-description/job-description.module#JobDescriptionPageModule' }
   
 ];
 @NgModule({
