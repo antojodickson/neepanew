@@ -1,0 +1,49 @@
+.custom-input-item {
+   width: 100%;
+   ion-input {
+    --padding-top: 12px !important;
+    --padding-bottom: 12px !important;
+   }
+   ion-textarea {
+    --padding-top: 10px !important;
+    --padding-bottom: 10px !important;
+   }
+}
+
+.radio-group-items .title {
+    margin: 10px 0px;
+}
+
+
+.radio-group-itemsend {
+    
+    ion-item {
+         display: -webkit-box !important;
+          ion-checkbox {
+             --border-radius: 25% !important;
+            }
+    }  
+}
+.title {
+    margin: 10px 0px;
+    font-size: 12px;
+}
+
+ion-label {
+    font-size: 12px !important;
+}
+
+
+
+.default-button {
+   ion-button {
+    height: 2.5rem;
+    span {
+        font-size: 12px;
+        font-weight: bold;
+    }
+   }
+}
+.gradient-button {
+    border-radius: 20px !important;
+}

@@ -1,0 +1,262 @@
+<ion-header>
+  <ion-toolbar class="gradient-color">
+    <ion-buttons slot="start">
+      <ion-back-button color="light"></ion-back-button>
+    </ion-buttons>
+    <ion-title color="light" text-center>Apply to Position</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="job-des">
+    <div padding-horizontal>
+      <ion-item lines="none" no-padding>
+        <div class="border-style">
+          <ion-row class="border">
+            <ion-col size="2" no-padding>
+              <div>
+                <img src="assets/imgs/logo.png" alt="" />
+              </div>
+            </ion-col>
+            <ion-col size="10">
+              <p no-margin class="des-heading">
+                Driver Training and Safety Coordinators
+              </p>
+              <p no-margin class="des-sub-heading">
+                $18 - $20 hourly Full-Time
+              </p>
+            </ion-col>
+          </ion-row>
+        </div>
+      </ion-item>
+      <div class="border">
+        <ion-row class="icon-text">
+          <ion-col no-padding text-left>
+            <div>
+              <ion-icon name="calculator"></ion-icon>
+              <span class="icon-textstyle">Gold Coast Tours</span>
+            </div>
+          </ion-col>
+          <ion-col no-padding text-left>
+            <div>
+              <ion-icon name="navigate"></ion-icon>
+              <span class="icon-textstyle">Anaheim;CA</span>
+            </div>
+          </ion-col>
+          <ion-col no-padding text-left>
+            <div>
+              <ion-icon name="calendar"></ion-icon>
+              <span class="icon-textstyle">March 21, 2019</span>
+            </div>
+          </ion-col>
+        </ion-row>
+        <div class="form">
+          <ion-list lines="none" no-margin no-padding margin-top>
+            <ion-item class="custom-input-item" no-padding>
+              <ion-label position="stacked" class="input-title"
+                >Full Name</ion-label
+              >
+              <ion-input
+                type="text"
+                placeholder="Bus Charter Driver"
+              ></ion-input>
+            </ion-item>
+            <ion-item class="custom-input-item" no-padding>
+              <ion-label position="stacked" class="input-title"
+                >E-mail</ion-label
+              >
+              <ion-input
+                type="text"
+                placeholder="Bus Charter Driver"
+              ></ion-input>
+            </ion-item>
+            <ion-item class="custom-input-item" no-padding>
+              <ion-label position="stacked" class="input-title"
+                >Phone</ion-label
+              >
+              <ion-input
+                type="text"
+                placeholder="Bus Charter Driver"
+              ></ion-input>
+            </ion-item>
+            <ion-item class="custom-input-item" no-padding>
+              <ion-label position="stacked" class="input-title"
+                >Address</ion-label
+              >
+              <ion-input
+                type="text"
+                placeholder="Bus Charter Driver"
+              ></ion-input>
+            </ion-item>
+            <ion-item class="custom-input-item" no-padding>
+              <ion-label position="stacked" class="input-title"
+                >Current Occupation</ion-label
+              >
+              <ion-input
+                type="text"
+                placeholder="Bus Charter Driver"
+              ></ion-input>
+            </ion-item>
+            <ion-item class="custom-input-item" no-padding>
+              <ion-label position="stacked" class="input-title"
+                >Tell us about you</ion-label
+              >
+              <ion-textarea
+                rows="4"
+                placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+              >
+              </ion-textarea>
+            </ion-item>
+          </ion-list>
+        </div>
+      </div>
+
+     <div class="border">
+        <p class="skill-title">Please answer a few more questions</p>
+        <ion-list  lines="none" no-margin no-padding class="custom-input-item">
+            <ion-radio-group class="radio-group-items">
+              <h2 class="title">
+                Are you a U.S Military Veteran ?
+              </h2>
+          
+              <ion-item>
+                <ion-checkbox value="yes"></ion-checkbox>
+                <ion-label>Yes</ion-label>
+              </ion-item>
+          
+              <ion-item>
+                  <ion-checkbox value="no" checked></ion-checkbox>
+                  <ion-label>No</ion-label>
+              </ion-item>
+    
+            </ion-radio-group>
+            <ion-radio-group class="radio-group-items">
+                <h2 class="title">
+                  Do you have reliable transportation
+                </h2>
+            
+                <ion-item>
+                  <ion-checkbox value="yes"></ion-checkbox>
+                  <ion-label>Yes</ion-label>
+                </ion-item>
+            
+                <ion-item>
+                    <ion-checkbox value="no" checked></ion-checkbox>
+                    <ion-label>No</ion-label>
+                </ion-item>
+      
+              </ion-radio-group>
+
+              <ion-radio-group class="radio-group-itemsend">
+                  <h2 class="title">
+                    Custom questions from employer here
+                  </h2>
+                  <ion-item class="right-checkbox">
+                      <ion-label>a. custom questions ?</ion-label>
+                      <ion-checkbox slot="end" checked></ion-checkbox>
+                    </ion-item>
+                    <ion-item class="right-checkbox">
+                        <ion-label>b. custom questions ?</ion-label>
+                        <ion-checkbox slot="end"></ion-checkbox>
+                      </ion-item>
+                      <ion-item class="right-checkbox">
+                          <ion-label>c. custom questions ?</ion-label>
+                          <ion-checkbox slot="end"></ion-checkbox>
+                        </ion-item>
+                </ion-radio-group>
+          </ion-list>
+          <h2 class="title">
+              In your own words tell us why you would like to work with us
+            </h2>
+            <p class="skill-title">
+                <ion-icon name="microphone"></ion-icon>
+              Start Recording</p>
+     </div>
+
+
+     <div class="border">
+        <h2 class="skill-title">
+            Resume
+          </h2>
+        <ion-item lines="none" no-padding>
+            <ion-label>Use resume on file</ion-label>
+            <ion-toggle slot="end"></ion-toggle>
+          </ion-item>
+          <p class="skill-title" no-margin>
+              <ion-icon name="paper"></ion-icon>
+            William_Smith_Res.pdf</p>
+            <h2 class="title">
+              or
+              </h2>
+              <div class="default-button" margin-bottom>
+                  <ion-button fill="outline" size="large" shape="round" no-margin
+                    ><span class="ion-text-capitalize">Attach New Resume</span></ion-button
+                  >
+                </div>
+     </div>
+
+     <div>
+        <p class="skill-title">
+          Share Social Media <span style="font-weight: 200;">(Optional)</span></p>
+     </div>
+
+     <ion-item lines="none" no-padding class="custom-input-item">
+        <ion-icon
+              name="logo-facebook"
+              color="primary"
+              slot="start"
+            ></ion-icon>
+        <ion-input
+                type="text"
+                placeholder="Bus Charter Driver"
+              ></ion-input>
+        <ion-checkbox slot="end"></ion-checkbox>
+      </ion-item>
+      <ion-item lines="none" no-padding class="custom-input-item">
+          <ion-icon name="logo-linkedin" color="primary" slot="start"></ion-icon>
+          <ion-input
+                  type="text"
+                  placeholder="Bus Charter Driver"
+                ></ion-input>
+          <ion-checkbox slot="end"></ion-checkbox>
+        </ion-item>
+        <ion-item lines="none" no-padding class="custom-input-item">
+            <ion-icon name="logo-twitter" color="primary" slot="start"></ion-icon>
+            <ion-input
+                    type="text"
+                    placeholder="Bus Charter Driver"
+                  ></ion-input>
+            <ion-checkbox slot="end"></ion-checkbox>
+          </ion-item>
+          <ion-item lines="none" no-padding class="custom-input-item">
+              <ion-icon name="mail"color="primary" slot="start"></ion-icon>
+              <ion-input
+                      type="text"
+                      placeholder="Bus Charter Driver"
+                    ></ion-input>
+             <ion-checkbox slot="end"></ion-checkbox>
+            </ion-item>
+          
+            <p class="skill-title">
+              <ion-icon name="add"></ion-icon>
+              Add Social Media Link
+            </p>
+      
+    </div>
+  </div>
+</ion-content>
+
+
+<ion-footer>
+  <ion-toolbar colour="light">
+   <ion-grid no-padding>
+     <ion-row padding-horizontal>
+       <ion-col text-right no-padding>
+        <div (click)="confirm()">
+          <ion-button size="large" shape="round" class="gradient-button"><span class="ion-text-capitalize">Submit Applications</span></ion-button>
+        </div>
+       </ion-col>
+     </ion-row>
+   </ion-grid>
+  </ion-toolbar>
+</ion-footer>

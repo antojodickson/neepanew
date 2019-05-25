@@ -387,6 +387,40 @@ li {
 }
 
 
+.job-des {
+    .more-icon {
+      margin-top: 10px;
+     }
+     .border {
+        border-bottom: 1px solid #E5F0FD;
+      .des-heading {
+        font-size: 16px;
+        font-weight: 500;
+       }
+       .des-sub-heading {
+        font-size: 14px;
+        color: var(--ion-color-tertiary);
+        margin: 5px 0px;
+       }
+     }
+     .content-title {
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--ion-color-tertiary);
+         } 
+        .content {
+        font-size: 11px;
+        font-weight: 400;
+        color: var(--ion-color-tertiary);
+        }
+
+        .skill-title {
+          font-size: 11px;
+          font-weight: 600;
+          color: var(--ion-color-primary);
+        }
+   }
+
 
 // .form {
 //     // padding: 0 13px;

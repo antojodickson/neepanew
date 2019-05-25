@@ -1,0 +1,17 @@
+ion-content {
+    --background: var(--ion-color-medium);
+  }
+
+.logo-color {
+    color: var(--ion-color-primary);
+}
+.list-color {
+    background: white;
+    ion-list {
+        border: 1px solid var(--ion-color-primary);
+        border-radius: 10px;
+    }
+    ion-label {
+        font-size: 12px;
+    }
+}
