@@ -1,0 +1,23 @@
+.info-card {
+  ion-card {
+    background-color: white;
+    margin: 10px 16px 10px 16px;
+    .custom-main-icon {
+      color: var(--ion-color-primary);
+      vertical-align: middle;
+      font-size: 20px;
+    }
+    .main-icon-text {
+      padding-left: 10px;
+      color: var(--ion-color-tertiary);
+      font-weight: 500;
+    }
+  }
+  
+}
+
+.arrow-icon {
+  float: right;
+  padding-right: 10px;
+  font-size: 20px;
+}

@@ -2,17 +2,15 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Routes, RouterModule } from '@angular/router';
-import { AccordionModule } from 'ngx-accordion';
-
 
 import { IonicModule } from '@ionic/angular';
 
-import { JobPreferencesPage } from './job-preferences.page';
+import { EditProfilePage } from './edit-profile.page';
 
 const routes: Routes = [
   {
     path: '',
-    component: JobPreferencesPage
+    component: EditProfilePage
   }
 ];
 
@@ -21,9 +19,8 @@ const routes: Routes = [
     CommonModule,
     FormsModule,
     IonicModule,
-    RouterModule.forChild(routes),
-    AccordionModule
+    RouterModule.forChild(routes)
   ],
-  declarations: [JobPreferencesPage]
+  declarations: [EditProfilePage]
 })
-export class JobPreferencesPageModule {}
+export class EditProfilePageModule {}

@@ -22,7 +22,12 @@ const routes: Routes = [
   { path: 'job-description', loadChildren: './job-description/job-description.module#JobDescriptionPageModule' },
   { path: 'job-preferences', loadChildren: './job-preferences/job-preferences.module#JobPreferencesPageModule' },
   { path: 'job-apply', loadChildren: './job-apply/job-apply.module#JobApplyPageModule' },
-  { path: 'confirmation', loadChildren: './confirmation/confirmation.module#ConfirmationPageModule' }
+  { path: 'confirmation', loadChildren: './confirmation/confirmation.module#ConfirmationPageModule' },
+  { path: 'account', loadChildren: './account/account.module#AccountPageModule' },
+  { path: 'my-resume', loadChildren: './my-resume/my-resume.module#MyResumePageModule' },
+  { path: 'my-profile', loadChildren: './my-profile/my-profile.module#MyProfilePageModule' },
+  { path: 'edit-profile', loadChildren: './edit-profile/edit-profile.module#EditProfilePageModule' },
+  { path: 'create-resume', loadChildren: './create-resume/create-resume.module#CreateResumePageModule' }
 ];
 @NgModule({
   imports: [

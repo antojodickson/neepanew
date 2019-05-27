@@ -1,0 +1,103 @@
+<ion-header>
+  <ion-toolbar class="gradient-color">
+    <ion-buttons slot="start">
+      <ion-back-button color="light"></ion-back-button>
+    </ion-buttons>
+    <ion-title color="light" text-center>Edit Profile</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="job-des">
+    <div padding-horizontal>
+      <div text-center margin-top>
+        <img src="assets/imgs/logo.png" class="user-logo" alt="" />
+      </div>
+      <div class="border">
+        <div class="form">
+          <ion-list lines="none" no-margin no-padding margin-top>
+            <ion-item class="custom-input-item" no-padding>
+              <ion-label position="stacked" class="input-title">Name</ion-label>
+              <ion-input
+                type="text"
+                placeholder="Bus Charter Driver"
+              ></ion-input>
+            </ion-item>
+            <ion-item class="custom-input-item" no-padding>
+              <ion-label position="stacked" class="input-title"
+                >Current Occupation</ion-label
+              >
+              <ion-input
+                type="text"
+                placeholder="Bus Charter Driver"
+              ></ion-input>
+            </ion-item>
+            <ion-item class="custom-input-item" no-padding>
+              <ion-label position="stacked" class="input-title"
+                >Current Address
+                <span class="optional-color"
+                  >(Only your city will be displayed)</span
+                ></ion-label
+              >
+              <ion-input
+                type="text"
+                placeholder="Bus Charter Driver"
+              ></ion-input>
+            </ion-item>
+          </ion-list>
+        </div>
+      </div>
+
+      <div class="border">
+        <p class="skill-title">
+          My Social Media
+        </p>
+        <ion-item lines="none" no-padding class="custom-input-item">
+          <ion-icon
+            name="logo-facebook"
+            color="primary"
+            slot="start"
+          ></ion-icon>
+          <ion-input type="text" placeholder="Bus Charter Driver"></ion-input>
+          <ion-icon name="remove-circle" class="remove-icon" color="danger"></ion-icon>
+        </ion-item>
+        <ion-item lines="none" no-padding class="custom-input-item">
+            <ion-icon
+              name="logo-twitter"
+              color="primary"
+              slot="start"
+            ></ion-icon>
+            <ion-input type="text" placeholder="Bus Charter Driver"></ion-input>
+            <ion-icon name="remove-circle" class="remove-icon" color="danger"></ion-icon>
+          </ion-item>
+          <ion-item lines="none" no-padding class="custom-input-item">
+              <ion-icon
+                name="logo-linkedin"
+                color="primary"
+                slot="start"
+              ></ion-icon>
+              <ion-input type="text" placeholder="Bus Charter Driver"></ion-input>
+              <ion-icon name="remove-circle" class="remove-icon" color="danger"></ion-icon>
+          </ion-item>
+        <p class="skill-title color">
+          <ion-icon name="add"></ion-icon>
+          Add Social Media Link
+        </p>
+      </div>
+      <div>
+        <ion-list lines="none" no-margin no-padding margin-top>
+          <ion-item class="custom-input-item" no-padding>
+            <ion-label position="stacked" class="input-title"
+              >Tell us about you</ion-label
+            >
+            <ion-textarea
+              rows="4"
+              placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+            >
+            </ion-textarea>
+          </ion-item>
+        </ion-list>
+      </div>
+    </div>
+  </div>
+</ion-content>

@@ -1,0 +1,17 @@
+.custom-input-item {
+  width: 100%;
+  ion-input {
+   --padding-top: 12px !important;
+   --padding-bottom: 12px !important;
+  }
+  ion-textarea {
+   --padding-top: 10px !important;
+   --padding-bottom: 10px !important;
+  }
+}
+.border {
+  border-bottom: 1px solid #E5F0FD;
+}
+.color {
+  color: var(--ion-color-secondary);
+}

@@ -1,14 +1,99 @@
 <ion-header>
   <ion-toolbar class="gradient-color">
     <ion-buttons>
-      <ion-back-button slot="start"></ion-back-button>
+      <ion-back-button slot="start" color="light"></ion-back-button>
     </ion-buttons>
-    <ion-title>Job Preferences</ion-title>
+    <ion-title color="light">Job Preferences</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <div>
+    <div class="jobscustom-card info-card">
+        <ion-card no-padding>
+          <div text-wrap
+          (click)="toggleLevel1('idx one')"
+          [ngClass]="{ active: isLevel1Shown('idx one') }">
+              <div padding>
+                  <ion-icon name="paper" slot="start" class="custom-main-icon"></ion-icon>
+                  <span class="main-icon-text">Job Type</span>
+                  <ion-icon class="arrow-icon"
+                      slot="end"
+                      [name]="isLevel1Shown('idx one') ? 'ios-arrow-up' : 'ios-arrow-down'"
+                      color="secondary"
+                    ></ion-icon>
+                </div>
+            <div *ngIf="isLevel1Shown('idx one')">
+              <div class="list-padding">
+                  <ion-list class="list-border">
+                    <ion-item lines="none">
+                      <ion-label>Full Time</ion-label>
+                      <ion-checkbox color="primary"></ion-checkbox>
+                    </ion-item>
+                    <ion-item lines="none">
+                      <ion-label>Part Time</ion-label>
+                      <ion-checkbox color="primary"></ion-checkbox>
+                    </ion-item>
+                  </ion-list>
+                </div>
+            </div> 
+          </div>
+          <div text-wrap
+          (click)="toggleLevel1('idx two')"
+           [ngClass]="{ active: isLevel1Shown('idx two') }">
+              <div padding>
+                  <ion-icon name="paper" slot="start" class="custom-main-icon"></ion-icon>
+                  <span class="main-icon-text">Job Type</span>
+                  <ion-icon class="arrow-icon"
+                      slot="end"
+                      [name]="isLevel1Shown('idx two') ? 'ios-arrow-up' : 'ios-arrow-down'"
+                      color="secondary"
+                    ></ion-icon>
+                </div>
+            <div *ngIf="isLevel1Shown('idx two')">
+              <div class="list-padding">
+                  <ion-list class="list-border">
+                    <ion-item lines="none">
+                      <ion-label>Full Time</ion-label>
+                      <ion-checkbox color="primary"></ion-checkbox>
+                    </ion-item>
+                    <ion-item lines="none">
+                      <ion-label>Part Time</ion-label>
+                      <ion-checkbox color="primary"></ion-checkbox>
+                    </ion-item>
+                  </ion-list>
+                </div>
+            </div> 
+          </div>
+          <div text-wrap
+          (click)="toggleLevel1('idx three')"
+           [ngClass]="{ active: isLevel1Shown('idx three') }">
+              <div padding>
+                  <ion-icon name="paper" slot="start" class="custom-main-icon"></ion-icon>
+                  <span class="main-icon-text">Job Type</span>
+                  <ion-icon class="arrow-icon"
+                      slot="end"
+                      [name]="isLevel1Shown('idx three') ? 'ios-arrow-up' : 'ios-arrow-down'"
+                      color="secondary"
+                    ></ion-icon>
+                </div>
+            <div *ngIf="isLevel1Shown('idx three')">
+              <div class="list-padding">
+                  <ion-list class="list-border">
+                    <ion-item lines="none">
+                      <ion-label>Full Time</ion-label>
+                      <ion-checkbox color="primary"></ion-checkbox>
+                    </ion-item>
+                    <ion-item lines="none">
+                      <ion-label>Part Time</ion-label>
+                      <ion-checkbox color="primary"></ion-checkbox>
+                    </ion-item>
+                  </ion-list>
+                </div>
+            </div> 
+          </div>
+        </ion-card>
+    </div></ion-content>
+  <!-- <div>
     <ion-card>
       <ion-item lines="none">
         <ion-icon class="logo-color" name="alarm" slot="start"></ion-icon>
@@ -115,4 +200,4 @@
       </div>
     </ion-card>
   </div>
-</ion-content>
+</ion-content> -->

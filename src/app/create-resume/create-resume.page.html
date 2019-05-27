@@ -1,0 +1,220 @@
+
+<ion-header>
+    <ion-toolbar class="gradient-color">
+      <ion-buttons slot="start">
+        <ion-back-button color="light"></ion-back-button>
+      </ion-buttons>
+      <ion-title color="light" text-center>Create Resume</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+<ion-content>
+
+    <div>
+        <ion-segment [(ngModel)]="resume">
+          <ion-segment-button value="info">
+           Basic Info
+          </ion-segment-button>
+          <ion-segment-button value="experience">
+           Experience
+          </ion-segment-button>
+          <ion-segment-button value="skills">
+              Skills
+             </ion-segment-button>
+        </ion-segment>
+      </div>
+      
+      <div [ngSwitch]="resume" padding-horizontal>
+            <div *ngSwitchCase="'info'">
+                <div class="form" >
+                  <ion-list lines="none" no-margin no-padding margin-top>
+                    <ion-item class="custom-input-item" no-padding>
+                      <ion-label position="stacked" class="input-title">Full Name</ion-label>
+                      <ion-input
+                        type="text"
+                        placeholder="Bus Charter Driver"
+                      ></ion-input>
+                    </ion-item>
+                    <ion-item class="custom-input-item" no-padding>
+                      <ion-label position="stacked" class="input-title"
+                        >Phone Number</ion-label
+                      >
+                      <ion-input
+                        type="text"
+                        placeholder="Bus Charter Driver"
+                      ></ion-input>
+                    </ion-item>
+                    <ion-item class="custom-input-item" no-padding>
+                      <ion-label position="stacked" class="input-title"
+                      >E-mail Address
+                       </ion-label
+                      >
+                      <ion-input
+                        type="text"
+                        placeholder="Bus Charter Driver"
+                      ></ion-input>
+                    </ion-item>
+                    <ion-item class="custom-input-item" no-padding>
+                        <ion-label position="stacked" class="input-title"
+                          >Tell us about you</ion-label
+                        >
+                        <ion-textarea
+                          rows="4"
+                          placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+                        >
+                        </ion-textarea>
+                      </ion-item>
+                  </ion-list>
+                </div>
+              </div>
+      
+        <div *ngSwitchCase="'experience'">
+            <div class="form">
+                <ion-list lines="none" no-margin no-padding margin-top>
+                  <ion-item class="custom-input-item" no-padding>
+                    <ion-label position="stacked" class="input-title">Job Title</ion-label>
+                    <ion-input
+                      type="text"
+                      placeholder="Bus Charter Driver"
+                    ></ion-input>
+                  </ion-item>
+                  <ion-item class="custom-input-item" no-padding>
+                    <ion-label position="stacked" class="input-title"
+                      >Company</ion-label
+                    >
+                    <ion-input
+                      type="text"
+                      placeholder="Bus Charter Driver"
+                    ></ion-input>
+                  </ion-item>
+                  <ion-row class="border">
+                    <ion-col no-padding>
+                        <ion-item class="custom-input-item" no-padding>
+                            <ion-label position="stacked" class="input-title"
+                              >from</ion-label
+                            >
+                            <ion-input
+                              type="text"
+                              placeholder="Bus Charter Driver"
+                            ></ion-input>
+                          </ion-item>
+                    </ion-col>
+                    <ion-col no-padding>
+                        <ion-item class="custom-input-item" no-padding>
+                            <ion-label position="stacked" class="input-title"
+                              >To</ion-label
+                            >
+                            <ion-input
+                              type="text"
+                              placeholder="Bus Charter Driver"
+                            ></ion-input>
+                          </ion-item>
+                    </ion-col>
+                  </ion-row>
+                  <ion-item class="custom-input-item" no-padding>
+                      <ion-label position="stacked" class="input-title">Job Title</ion-label>
+                      <ion-input
+                        type="text"
+                        placeholder="Bus Charter Driver"
+                      ></ion-input>
+                    </ion-item>
+                    <ion-item class="custom-input-item" no-padding>
+                      <ion-label position="stacked" class="input-title"
+                        >Company</ion-label
+                      >
+                      <ion-input
+                        type="text"
+                        placeholder="Bus Charter Driver"
+                      ></ion-input>
+                    </ion-item>
+                    <ion-row class="border">
+                      <ion-col no-padding>
+                          <ion-item class="custom-input-item" no-padding>
+                              <ion-label position="stacked" class="input-title"
+                                >from</ion-label
+                              >
+                              <ion-input
+                                type="text"
+                                placeholder="Bus Charter Driver"
+                              ></ion-input>
+                            </ion-item>
+                      </ion-col>
+                      <ion-col no-padding>
+                          <ion-item class="custom-input-item" no-padding>
+                              <ion-label position="stacked" class="input-title"
+                                >To</ion-label
+                              >
+                              <ion-input
+                                type="text"
+                                placeholder="Bus Charter Driver"
+                              ></ion-input>
+                            </ion-item>
+                      </ion-col>
+                    </ion-row>
+        </ion-list>
+        <div>
+            <p class="skill-title color">
+                <ion-icon name="add"></ion-icon>
+                Add another job
+              </p>
+              <p class="skill-title color">
+                  <ion-icon name="add"></ion-icon>
+                  Add a college
+                </p>
+                <p class="skill-title color">
+                    <ion-icon name="add"></ion-icon>
+                    Add a course
+                  </p>
+        </div>
+        </div>
+        </div>
+        <div *ngSwitchCase="'skills'">
+            <div class="form border">
+                <ion-list lines="none" no-margin no-padding margin-top>
+                  <ion-item class="custom-input-item" no-padding>
+                    <ion-label position="stacked" class="input-title">Add New Skills</ion-label>
+                    <ion-input
+                      type="text"
+                      placeholder="Bus Charter Driver"
+                    ></ion-input>
+                  </ion-item>
+                  </ion-list>
+                  </div>
+
+                  <div class="border" padding-bottom>
+                    <p>My Skills</p>
+                    <ion-chip class="gradient-color">
+                        <ion-label color="light">Big Rig Driving</ion-label>
+                      </ion-chip>
+                      <ion-chip class="gradient-color">
+                          <ion-label color="light">Tourism</ion-label>
+                        </ion-chip>
+                        <ion-chip class="gradient-color">
+                            <ion-label color="light">Spanish</ion-label>
+                          </ion-chip>
+                  </div>
+                  <div>
+                      <p>My Skills</p>
+                      <ion-chip outline color="primary">
+                          <ion-label color="primary">Big Rig Driving</ion-label>
+                        </ion-chip>
+                        <ion-chip outline color="primary">
+                            <ion-label color="primary">Tourism</ion-label>
+                          </ion-chip>
+                          <ion-chip outline color="primary">
+                              <ion-label color="primary">Spanish</ion-label>
+                            </ion-chip>
+                    </div>
+          </div>
+
+      </div>
+      <div class="fixed-button">
+          <ion-button
+            button-clear
+            expand="block"
+            class="gradient-button"
+            ><span class="ion-text-capitalize">Create My Resume</span></ion-button
+          >
+        </div>
+
+</ion-content>
